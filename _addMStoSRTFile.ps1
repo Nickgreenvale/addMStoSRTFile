@@ -12,7 +12,6 @@ function Is-Numeric ($Value) {
 
 
 # File content and new file Name
-#$SrtFile = 'D:\Movies\Two Faces Of My Girlfriend (2007) [720p] [WEBRip] [YTS.MX]\Two Faces of My Girlfriend (2007) 1080p NF WEB-DL DDP2.0 x264 .srt'
 $fileSplit = $SrtFile.Split("\")
 $fileName = (($fileSplit | Select-String ".srt").ToString())
 $count = 1
